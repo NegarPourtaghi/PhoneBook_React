@@ -1,0 +1,30 @@
+.Item{
+    display: flex;
+    justify-content: space-between;
+    color: #6b6b6f;
+    align-items: center;
+    background-color: #fbfbfb;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.Item p{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.Item button{
+    width: 40px;
+    height: 40px;
+    background-color: #fbfbfb;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+.Item button:hover{
+   font-size: 1.2rem;
+}

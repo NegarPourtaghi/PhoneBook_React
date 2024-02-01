@@ -1,0 +1,23 @@
+.HeaderContainer{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.HeaderContainer h1{
+    color: blue ;
+    margin-bottom: 20px;
+}
+.HeaderContainer p{
+    color: gray;
+}
+.HeaderContainer a{
+    color: blue;
+    background-color: aquamarine;
+    padding: 3px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition:  .2s all ease-in-out;
+}
+.HeaderContainer a:hover{
+    background-color: palegreen;
+}
